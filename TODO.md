@@ -1,0 +1,3 @@
+- [x] Update frontend/src/context/AuthContext.tsx to add localStorage-based fallback auth when backend/axios fails; ensure register saves users and login validates against stored users; keep existing UI/structure unchanged.
+- [x] Update frontend/src/App.tsx to fix routing/refresh by adding a catch-all route in AppPages so logged-in refresh doesn’t break.
+- [x] Run frontend build/dev sanity check (no compile/runtime errors) and verify: Register -> Login -> redirect to dashboard; refresh on /learn works.
